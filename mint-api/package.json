@@ -1,0 +1,12 @@
+{
+  "name": "sample-http",
+  "version": "0.0.1",
+  "dependencies": {
+    "request": "2.88.0",
+    "mongodb":"3.6.5",
+    "@zilliqa-js/util": "latest",
+    "@zilliqa-js/zilliqa": "latest",
+    "@zilliqa-js/crypto": "latest",
+    "tslib":"latest"
+  }
+}
