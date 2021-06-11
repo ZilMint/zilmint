@@ -1,7 +1,7 @@
 exports.helloWorld = async (req, res) => {
   const MongoClient = require('mongodb').MongoClient;
   var id = Math.floor(Math.random()*899999999999+100000000000);
-  var url = "<metadata-api-url>?id="+id+"";
+  var url = "<tokenuri-api-url>?id="+id+"";
   const request = require('request');
 
   const {BN, Long, bytes, units} = require('@zilliqa-js/util');
